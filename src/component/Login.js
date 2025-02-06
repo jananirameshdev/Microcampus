@@ -98,7 +98,7 @@ function Login() {
                         <FaGoogle style={{ color: "#082755" }} /> <span className='google-btn'> Google</span>
                     </div>
                     <div className="register">
-                        <p className='acc'>Don't have an account? <u>Register</u> here.</p>
+                        <p className='acc'>Don't have an account? <u>Register</u> </p>
                     </div>
                 </div>
             </div>
