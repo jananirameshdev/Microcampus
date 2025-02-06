@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.login-container {
+   height: 882px;
+    width: 900px;
+    position: relative;
+}
+body{
+    overflow-y: hidden;
+}
+.inner{
+    background: url('../image/upscalemedia-transformed.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 635px;
+    width: 200vh;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.log-content{
+    margin-top: 50px;
+    float: right;
+    margin-left: 40px;
+}
+.log-head{
+    color: #082755;
+}
+.log-text{
+    color: #0052CC;
+}
+form{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.email{
+    width: 230px;
+    height: 40px;
+    background-color: #EAEAEA;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: "Geist", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.pass{
+    width: 230px;
+    height: 40px;
+    background-color: #EAEAEA;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: "Geist", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.btn-login{
+    width: 240px;
+    height: 40px;
+    background-color:#082755;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-family: "Geist", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.google-log{
+    display: flex;
+    margin-left: -20px;
+    margin-top: 30px;
+}
+.horizontal{
+    width:40px;
+}
+.box{
+    width: 240px;
+    height: 20px;
+    text-align: center;
+    border-style: solid;
+    padding: 10px;
+    margin-left: 30px;
+    border-color: #082755;
+    font-family: "Geist", serif;
+  font-optical-sizing: auto;
+  border-radius: 10px;
+}
+.register{
+    color: #082755;
+    margin-left: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+@media (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden; 
+        padding-top: 30px;
+    }
+    .inner{
+
+      background-image: none;
+    }
+    .log-content{
+        float: left;
+    }
+    .log-head{
+        margin-left: -20px;
+    }
+}
